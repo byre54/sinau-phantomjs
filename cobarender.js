@@ -6,6 +6,7 @@ page.open('http://google.com', function(status) {
 		page.render('example.jpg');
 	}
 	phantom.exit();
+	console.log('ngeload halamane wis bar bab...");
 });
 
 // iki nambahi commment aja

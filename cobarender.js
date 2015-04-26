@@ -1,4 +1,5 @@
 var page = require('webpage').create();
+console.log('loading...'); // nambahin tulisan loading
 page.open('http://kaskus.co.id', function(status) {
 	console.log('status = '+status);
 	if (status === "success") {
@@ -6,3 +7,5 @@ page.open('http://kaskus.co.id', function(status) {
 	}
 	phantom.exit();
 });
+
+// iki nambahi commment aja

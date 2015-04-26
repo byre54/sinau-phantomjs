@@ -1,0 +1,26 @@
+{
+  "name": "sinau-phantomjs",
+  "version": "1.0.0",
+  "description": "Belajar PhantomJS untuk render sesuatu ke file",
+  "main": "cobarender.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rejais/sinau-phantomjs.git"
+  },
+  "keywords": [
+    "phantomjs",
+    "sinau"
+  ],
+  "author": "rejaisme@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rejais/sinau-phantomjs/issues"
+  },
+  "homepage": "https://github.com/rejais/sinau-phantomjs",
+  "dependencies": {
+    "phantomjs": "^1.9.16"
+  }
+}

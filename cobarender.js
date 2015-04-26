@@ -6,6 +6,7 @@ page.open('http://kaskus.co.id', function(status) {
 		page.render('example.pdf');
 	}
 	phantom.exit();
+	console.log('ngeload halamane wis bar bab...");
 });
 
 // iki nambahi commment aja
